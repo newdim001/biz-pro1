@@ -70,7 +70,7 @@ def show_dashboard():
         
         # System-wide summary metrics
         system_summary = get_system_summary()
-        st.subheader("System Overview")
+        st.subheader("Business Overview")
         
         # Calculate total stock from all units
         total_stock = sum(
